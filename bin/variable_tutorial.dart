@@ -40,13 +40,13 @@ int applyFunction(int a, int b, int Function(int, int) operation) {
 }
 
 void main() {
-  greet();
-  greetPerson("Alice");
-  print(add(2, 3));
+  // greet();
+  // greetPerson("Kazem");
+  // print(add(2, 9));
   print(fullName("Alice", "Bob", "Smith"));
   print(fullName("Alice", "Bob"));
   print(fullName("Alice"));
-  print(formatName(firstName: "Alice", lastName: "Smith"));
-  print(formatName(firstName: "Alice", middleName: "Bob", lastName: "Smith"));
-  print(applyFunction(2, 3, add));
+  // print(formatName(firstName: "Alice", lastName: "Smith"));
+  // print(formatName(firstName: "Alice", middleName: "Bob", lastName: "Smith"));
+  // print(applyFunction(2, 3, add));
 }
